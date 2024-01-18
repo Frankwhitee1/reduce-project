@@ -76,3 +76,7 @@ If initialValue is not provided then the reduce method will act differently for 
 
 ## Citations
 
+
+EDGE CASES REFRENCE
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
