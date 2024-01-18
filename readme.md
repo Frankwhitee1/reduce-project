@@ -1,28 +1,23 @@
-# Independent Learning Project - Selection Sort
+# Independent Learning Project - .reduce() Method
 
 ## Introduction
 
-Selection sort is a simple sorting algorithm that works by dividing the input list into two parts: the sorted portion and the unsorted portion. The algorithm repeatedly selects the smallest (or largest, depending on the sorting order) element from the unsorted portion and swaps it with the first unsorted element. This process continues until the entire list is sorted.
+
 
 ## Algorithm Description
 
-1. Initialization: The entire list is considered unsorted initially.
-
+1. 
 ```js
-const array = [5, 2, 4, 1, 3];
+// insert test array here when ready
+
 ```
 
-2. Iterate over the array, element by element. For each element in the array, iterate over the entire array to find the element with the minimum value on the right side of the array, the unsorted side.
+2. 
+
 
 ```js
-for (let i = 0; i < array.length; i++) {
-  // Any elements in an index greater than i are considered in the unsorted part of the array
-  let minIndex = i; // initialize min to the current element
-  for (let j = i + 1; j < array.length; j++) {
-    // iterate over the unsorted side of the array
-    minIndex = array[minIndex] > array[j] ? j : minIndex; // Find the min element's index in the unsorted side of the array
-  }
-}
+// insert test function here 
+
 ```
 
 3. Swap: Swap the minimum element with the first element in the unsorted portion.
